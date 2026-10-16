@@ -1,0 +1,23 @@
+[THONG BAO THUC TE TU GITHUB ACTIONS]
+Repository: https://github.com/nguynn12/Lab7_YummyApp
+Workflow: YummyApp Mobile Backend CI Pipeline
+Run ID: 38882481910
+Commit: 00b43bf9cbee519936862df31252d6f00a9d6505
+Tac gia: 2312704 - Ta Nhat Nguyen
+
+Ket qua Check-Run tu GitHub API (check-run ID: 116913319458):
+--------------------------------------------------------------------------------
+Annotation Level: failure
+Message: The job was not started because your account is locked due to a billing issue.
+Annotation Level: notice
+Message: "The ubuntu-latest label will migrate to Ubuntu 26 beginning October 19, 2026. For more information, see https://github.com/actions/runner-images/issues/14748"
+--------------------------------------------------------------------------------
+
+Giai thich & Huong dan:
+Tai khoan GitHub 'nguynn12' hien dang bi khoa tinh nang GitHub Actions do van de Billing (qua han dinh muc mien phi hoac chua cap nhat thong tin thanh toan).
+De lay Raw Log workflow thanh cong (tich xanh):
+1. Dang nhap https://github.com/settings/billing/summary va kiem tra muc 'Spending limit' / 'Actions'.
+2. Mo khoa hoac cho phep han muc mien phi.
+3. Vao https://github.com/nguynn12/Lab7_YummyApp/actions -> bam 'Re-run all jobs'.
+4. Sau khi workflow chay thanh cong, bam vao menu (...) ba cham goc phai -> chon 'View raw logs'.
+5. Dan noi dung vao file nay.

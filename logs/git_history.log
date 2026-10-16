@@ -1,0 +1,4 @@
+* c2b363f - 2312704 - Ta Nhat Nguyen (Fri Oct 16 16:48:53 2026 +0700) : docs: add real test logs, report and handwritten verification
+* 00b43bf - 2312704 - Ta Nhat Nguyen (Fri Oct 16 16:42:58 2026 +0700) : test: implement 7 mocking test cases for apply_promo_code and get_nearby_restaurants
+* 3d737a4 - 2312704 - Ta Nhat Nguyen (Fri Oct 16 16:42:41 2026 +0700) : ci: configure GitHub Actions workflow on ubuntu-latest with flake8 and coverage
+* 8d77bba - 2312704 - Ta Nhat Nguyen (Fri Oct 16 16:42:33 2026 +0700) : feat: setup YummyApp backend services and initial configuration
